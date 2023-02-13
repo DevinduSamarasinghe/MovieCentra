@@ -38,7 +38,6 @@ const Mainfile = () =>{
                 alt="search"
                 onClick={()=>searchMovies(searchTerm)}/>
             </div>
-
             {movies?.length > 0 ? (<div className="container">
                 {movies.map((movie,key)=>{
                     return(
