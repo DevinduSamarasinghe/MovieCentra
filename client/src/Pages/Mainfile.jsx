@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from "react";
-import "./styles/Mainfile.css";
+//import "./styles/Mainfile.css";
 import find from "../Assets/find.svg";
 import MovieCard from "../Components/MovieCard";
 
@@ -25,9 +25,9 @@ const Mainfile = () =>{
     },[])
 
     return (
-        <div className="app">
-            <h1>Becks and I Rate</h1>
-            <div className="search">
+        <div className="flex relative dark: bg-main-dark-bg">
+            {/* <h1>MovieCentra</h1> */}
+            {/* <div className="search">
                 <input
                 placeholder="Search Movie"
                 value={searchTerm}
@@ -37,8 +37,8 @@ const Mainfile = () =>{
                 <img src={find} 
                 alt="search"
                 onClick={()=>searchMovies(searchTerm)}/>
-            </div>
-            {movies?.length > 0 ? (<div className="container">
+            </div> */}
+            {/* {movies?.length > 0 ? (<div className="container">
                 {movies.map((movie,key)=>{
                     return(
                         <div key={key}>
@@ -51,11 +51,8 @@ const Mainfile = () =>{
                 <div className="empty">
                     <h2>No Movies Found!</h2>
                 </div>
-            )}
-            
+            )} */}
 
-                
-                
         </div>
     )
 }
