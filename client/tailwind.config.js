@@ -1,6 +1,6 @@
 module.exports = {
     content: ['./src/**/*.{js,jsx,ts,tsx}'],
-    darkMode: 'class',
+    darkMode: 'media',
     theme: {
       fontFamily: {
         display: ['Open Sans', 'sans-serif'],
@@ -24,18 +24,21 @@ module.exports = {
           color: 'rgba(0, 0, 0, 0.1)',
         },
         width: {
+          100: '100px',
           200: '200px',
           400: '400px',
           570: '570px',
           760: '760px',
           780: '780px',
           800: '800px',
+          820: '820px',
           1000: '1000px',
           1200: '1200px',
           1400: '1400px',
         },
         height: {
           80: '80px',
+
         },
         minHeight: {
           590: '590px',
