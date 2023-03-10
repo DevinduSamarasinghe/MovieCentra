@@ -31,9 +31,9 @@ const Mainfile = () =>{
                 <div className={`pl-2 text-white
                 transition ease-in-out delay-150  
                 hover:translate-y-1 hover:scale-110 hover:text-cyan-200 duration-500`}>
-                    <h1 className="text-2xl pt-2 pl-2"> MovieCentra</h1>
+                    <h1 className="text-2xl pt-2 "> MovieCentra</h1>
                 </div> 
-                <div className="flex px-20 pt-3 pb-3
+                <div className="flex mx-20 px-40 pt-3 pb-3
                 transition ease-in-out delay-150 hover:translate-y-1 hover:scale-105 hover:placeholder:text-gray-800 duration-500">
                     <input className=" text-center h-10 w-800 text-white 
                     rounded-md bg-slate-500 placeholder:text-gray-400 outline-none" 
@@ -60,10 +60,10 @@ const Mainfile = () =>{
                 alt="search"
                 onClick={()=>searchMovies(searchTerm)}/>
             </div> */}
-             {movies.length > 0 ? (<div className="flex flex-wrap p-5">
+             {movies.length > 0 ? (<div className="my-20 flex flex-wrap p-5">
                 {movies.map((movie,key)=>{
                     return(
-                        <div key={key} className="p-5">
+                        <div key={key} className="pb-10 px-2 ml-3">
                             <MovieCard movie={movie}/>
                         </div>
                     )
