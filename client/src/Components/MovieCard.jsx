@@ -14,7 +14,7 @@ const MovieCard = ({movie}) =>{    //The only way to destructure an object passe
                     <figcaption className="px-5 py-1 text-right text-xs font-normal">{movie.Year}</figcaption>
                  </div>
                 
-                 <img className="w-full h-72 rounded-t-lg" src={movie.Poster !== 'N/A'? movie.Poster : 'https://via.placeholder.com/400'}></img>
+                 <img className="w-full h-400 rounded-t-lg" src={movie.Poster !== 'N/A'? movie.Poster : 'https://via.placeholder.com/400'}></img>
                  <figcaption className="px-5 py-1 text-right text-xs font-normal">Comment</figcaption>
 
                 </figure>
