@@ -47,19 +47,7 @@ const Mainfile = () =>{
                     </button>
                 </div>
             </div>
-
-            {/* <h1>MovieCentra</h1> */}
-            {/* <div className="search">
-                <input
-                placeholder="Search Movie"
-                value={searchTerm}
-                onChange={(e)=>{
-                    setSearchTerm(e.target.value);
-                }}/>
-                <img src={find} 
-                alt="search"
-                onClick={()=>searchMovies(searchTerm)}/>
-            </div> */}
+            
              {movies.length > 0 ? (<div className="my-20 flex flex-wrap p-5">
                 {movies.map((movie,key)=>{
                     return(
